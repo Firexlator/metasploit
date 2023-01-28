@@ -1,0 +1,48 @@
+#!/bin/bash
+echo "Starting installation of metasploit-framework"
+curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall
+clear
+chmod 755 msfinstall
+clear
+./msfinstall
+clear
+echo "Installation finished"
+echo "You can start the framework by using "msfconsole" in a terminal"
+sleep 5
+clear
+echo "Closing in 10 seconds"
+sleep 1
+clear
+echo "Closing in 9 seconds"
+sleep 1
+clear
+echo "Closing in 8 seconds"
+sleep 1
+clear
+echo "Closing in 7 seconds"
+sleep 1
+clear
+echo "Closing in 6 seconds"
+sleep 1
+clear
+echo "Closing in 5 seconds"
+sleep 1
+clear
+echo "Closing in 4 seconds"
+sleep 1
+clear
+echo "Closing in 3 seconds"
+sleep 1
+clear
+echo "Closing in 2 seconds"
+sleep 1
+clear
+echo "Closing in 1 seconds"
+sleep 1
+clear
+exit
+
+
+
+
+
